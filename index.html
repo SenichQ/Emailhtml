@@ -1,0 +1,718 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Open Sans"] {
+			font-family: 'Open Sans', arial, sans-serif !important;
+		}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border: none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100% !important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		table td {
+			border-collapse: collapse;
+		}
+
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+		a {}
+
+		.main-image {
+			background-image: url("Баннер2.png");
+			background-size: 100%;
+			background-repeat: no-repeat;
+
+		}
+
+		.logo-spim {
+			padding-top: 17px;
+			width: 77px;
+			height: 39px;
+			padding-right: 17px;
+		}
+
+		.logo-two {
+			width: 91px;
+			height: 18px;
+			padding-top: 17px;
+			padding-left: 17px;
+		}
+
+		.main-text {
+
+			font-family: Circe;
+			font-size: 42px;
+			line-height: 40px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #000000;
+
+		}
+
+		.main-page {
+			margin-bottom: 40px;
+		}
+
+		.watermelon-one {
+			width: 117.2px;
+			height: 60px;
+			padding-right: 10px;
+		}
+
+		.watermelon-two {
+
+			width: 106.55px;
+			height: 60px;
+			padding-left: 5px;
+
+		}
+
+		.watermelon-three {
+			width: 69.25px;
+			height: 60px;
+			padding-left: 10px;
+		}
+
+		.precent {
+			width: 93px;
+			padding-left: 20px;
+		}
+
+		.precent h3 {
+			text-align: center;
+			font-family: Arial, Helvetica, Circle, sans-serif;
+			font-size: 40px;
+			line-height: 1px;
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 25px;
+		}
+
+		.precent p {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			text-align: center;
+			text-transform: lowercase;
+		}
+
+		.main-info {
+			margin-bottom: 10px;
+			margin-top: -5px;
+		}
+
+		.promo {
+			margin-bottom: 15px;
+		}
+
+		.promo r {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			text-transform: capitalize;
+			color: #2E2E2E;
+		}
+
+		.promo-code {
+			border: 1px dashed #000000;
+			width: 258px;
+		}
+
+		.promo-code h2 {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 28px;
+
+			text-align: center;
+			text-transform: uppercase;
+
+			color: #2E2E2E;
+		}
+
+		.promocode {
+			padding-bottom: 8px;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			text-transform: capitalize;
+
+			color: #2E2E2E;
+		}
+
+		.promo-button {
+			background: #2ABE80;
+			border-radius: 45px;
+			height: 40px;
+			width: 240px;
+			border-radius: 50px;
+
+		}
+
+		.promo-button h4 {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 23px;
+			/* identical to box height */
+
+			color: #FFFFFF;
+		}
+
+		.content-text {
+
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 28px;
+
+			color: #000000;
+
+
+		}
+
+		.text-main {
+
+			margin-top: -30px;
+
+
+		}
+
+		.sale {
+			margin-bottom: 153px;
+
+
+		}
+
+		.content p {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 28px;
+
+			color: #000000;
+		}
+
+		.promo-a {
+			text-decoration: none;
+		}
+
+		.content {
+			margin-bottom: 40px;
+		}
+
+		.rectangle-one {
+			padding-right: 25px;
+
+			width: 150px;
+			height: 113px;
+			border-radius: 7px;
+
+
+		}
+
+		.rectangle-two {
+			padding-right: 25px;
+			padding-left: 25px;
+
+			width: 150px;
+			height: 113px;
+			border-radius: 7px;
+
+		}
+
+		.rectangle-three {
+			padding-left: 25px;
+			width: 150px;
+			height: 113px;
+			border-radius: 7px;
+		}
+
+		.content-image a {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 24px;
+
+			text-align: center;
+			text-decoration-line: underline;
+			color: #476FC6;
+		}
+
+		.content-image {
+			margin-bottom: 89px;
+
+
+		}
+
+		.content-image-two {
+			margin-bottom: 60px;
+		}
+
+		.content-image-two a {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 24px;
+
+			text-align: center;
+			text-decoration-line: underline;
+			color: #476FC6;
+
+		}
+
+		.button-magazine {
+			background: #2ABE80;
+			border-radius: 50px;
+			height: 60px;
+			width: 184px;
+
+
+
+		}
+
+		.magazine h4 {
+
+
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 23px;
+			text-align: center;
+			color: #FFFFFF;
+
+
+		}
+
+		.magazine {
+			margin-bottom: 68px;
+
+		}
+
+		.magazine-futer {
+			font-family: HelveticaNeueCyr;
+			font-size: 14px;
+			line-height: 20px;
+			/* or 143% */
+			text-align: center;
+
+			color: #C4C4C4;
+
+			mix-blend-mode: normal;
+
+		}
+
+		.social {
+			width: 245px;
+			height: 45px;
+			padding-right: 61px;
+		}
+
+		.futerr a {
+			font-family: Arial;
+			font-size: 17px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 27px;
+			letter-spacing: 0px;
+			text-align: left;
+
+		}
+
+		.futerr-text p {
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			color: #A3A3A3;
+
+		}
+
+		.futerr-button {
+			margin-bottom: 23px;
+		}
+
+		.futerr-button a {
+
+			font-family: Arial;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			color: #A3A3A3;
+
+
+
+		}
+
+		.futerr-button-unsubscribe {
+			padding-right: 20px;
+
+		}
+
+		@font-face {
+			font-family: 'Circle';
+			src: url('Fonts\Circe-ExtraBold.ttf') format('ttf');
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+		письмо</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#F7F7F7">
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff" class="main-page">
+					<tr>
+						<td height="43" width="600" bgcolor="#F7F7F7"></td>
+					</tr>
+					<tr>
+						<td>
+							<table class="main-image" width="600" cellpadding="0" cellspacing="0" align="center">
+								<tr>
+									<td>
+										<table width="200" cellpadding="0" cellspacing="0" align="center">
+											<td align="center" class="logo-head">
+												<img src="images\лого.png" class="logo-spim">
+											</td>
+											<td>
+												<img src="images/лого2.png" class="logo-two" </img>
+											</td>
+										</table>
+								<tr>
+									<td height="41" width="600">
+
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<table class="text-main" width="306" cellpadding="0" cellspacing="0" align="center">
+											<tr>
+												<td align="center">
+													<h1 class="main-text">
+														Финальная<br />
+														распродажа<br />
+														этого лета!
+													</h1>
+												</td>
+											</tr>
+										</table>
+								<tr>
+									<td>
+										<table class="main-info" width="315" cellpadding="0" cellspacing="0" align="center">
+											<tr>
+												<td align="left">
+													<img src="images\watermelon-one.png" class="watermelon-one" </img>
+												</td>
+												<td align="center">
+													<img src="images\watermelon-two.png" class="watermelon-two" </img>
+												</td>
+												<td align="right">
+													<img src="images\watermelon-three.png" class="watermelon-three" </img>
+												</td>
+											</tr>
+											<tr>
+												<td align="left" class="precent">
+													<h3>10%</h3>
+													<p>до 19:00</p>
+												</td>
+												<td align="center" class="precent">
+													<h3>8%</h3>
+													<p>до 22:00</p>
+												</td>
+												<td class="precent" align="right" padding-left>
+													<h3>5%</h3>
+													<p>до 00:00</p>
+												</td>
+											</tr>
+										</table>
+								<tr>
+									<td>
+										<table class="promo" width="258" cellpadding="0" cellspacing="0" align="center">
+											<tr>
+												<td align="center" class="promocode">
+													Промокод
+												</td>
+											</tr>
+											<tr>
+												<td align="center" class="promo-code">
+													<h2>GOODBYELETO</h2>
+												</td>
+											</tr>
+										</table>
+								<tr>
+									<td><a href="#" class="promo-a">
+											<table class="sale" width="240" cellpadding="0" cellspacing="0" align="center">
+												<tr>
+													<td align="center" class="promo-button">
+
+														<h4>Получить скидку</h4>
+										</a>
+									</td>
+								</tr>
+
+
+
+							</table>
+					<tr>
+						<td>
+							<table class="main-content" width="600" cellpadding="0" cellspacing="0" align="center">
+								<tr>
+									<td>
+										<table class="content" width="500" cellpadding="0" cellspacing="0" align="center">
+											<tr>
+												<td>
+													<p>Здравствуйте!
+
+													<p>
+														Теперь, когда вы готовы к школе и обновили спальни своих малышей, пришла пора
+														подумать о себе. Возможно, настало время поменять подушку или вы давно
+														собирались купить <a href="#" style="color: #1B90EA"> шерстяное одеяло</a> на
+														тот
+														период, когда по
+														ночам уже холодает,
+														а отопление ещё не включили.</p>
+													<p>
+														В конце концов, порадуйте себя новым комплектом <a href="#"
+															style="color: #1B90EA">мягкого
+															постельного белья</a>
+														или
+														красивым <a href="#" style="color:#1B90EA">уютным пледом</a>! Но торопитесь,
+														<b>скидка 10%</b> на
+														все эти
+														радости будет
+														действовать только <b>до 13:00.</b>
+													</p>
+													</p>
+												</td>
+											</tr>
+										</table>
+								<tr>
+									<td>
+										<table class="content-image" width="500" cellpadding="0" cellspacing="0" align="center">
+											<tr>
+												<td align="left" class="rectangle-one">
+													<img src="images\Rectangle.png"> </img>
+												</td>
+												<td align="center" class="rectangle-two">
+													<img src="images\Rectangle2.png"> </img>
+												</td>
+												<td align="right" class="rectangle-three">
+													<img src="images\Rectangle3.png"> </img>
+												</td>
+											</tr>
+											<tr>
+
+												<td align="center"> <a href="#" style="color: #1B90EA">Подушки</a></td>
+												<td align="center"> <a href="#" style="color: #1B90EA">Одеяла</a></td>
+												<td align="right"> <a href="#" style="color: #1B90EA">Постельное бельё</a></td>
+												</a>
+											</tr>
+										</table>
+								<tr>
+									<td>
+										<table class="content-image-two" width="500" cellpadding="0" cellspacing="0"
+											align="center">
+											<tr>
+												<td align="left" class="rectangle-one">
+													<img src="images\Rectangle4.png"> </img>
+												</td>
+												<td align="center" class="rectangle-two">
+													<img src="images\Rectangle5.png"> </img>
+												</td>
+												<td align="right" class="rectangle-three">
+													<img src="images\Rectangle6.png"> </img>
+												</td>
+											</tr>
+											<tr>
+
+												<td align="center"> <a href="#" style="color: #1B90EA">Пледы и <br />покрывала</a>
+												</td>
+												<td align="center"> <a href="#" style="color: #1B90EA">Ванная</a></td>
+												<td align="center"> <a href="#" style="color: #1B90EA">Кухня</a></td>
+												</a>
+											</tr>
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#" class="promo-a">
+											<table class="magazine" width="200" cellpadding="0" cellspacing="0" align="center">
+												<tr>
+													<td class="button-magazine">
+														<h4>В магазин </h4>
+													</td>
+
+												</tr>
+											</table>
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<table class="magazine-futer" width="500" cellpadding="0" cellspacing="0" align="center">
+											<tr>
+												<td>
+													<p>
+														Промокод действует на все товары, кроме разделов «Кровати» и <br /> «Матрасы».
+														Cкидка
+														не суммируется со скидками на сайте, скидками и <br />подарками по другим
+														промокодам
+														и дисконтным картам. Размер скидки <br />зависит от времени оформления заказа.
+
+
+													</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+						</td>
+					</tr>
+			</td>
+		</tr>
+	</table>
+	</td>
+	</tr>
+
+
+	</td>
+	</tr>
+
+	</td>
+	</tr>
+
+
+	</table>
+	</td>
+	</tr>
+	</td>
+	</tr>
+
+
+
+
+	</td>
+	</tr>
+
+
+
+	</table>
+	</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="futerr" width="430" cellpadding="0" cellspacing="0" align="center">
+				<tr>
+					<td class="social" align="left"><a href="#">
+							<img src="images\Соцсети.png" width="245">
+						</a>
+					</td>
+					<td>
+						<a href="tel:8 800 555 60 55" style="color: #2ABE80">8 800 555 60 55</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="futerr-text" width="542" cellpadding="0" cellspacing="0" align="center">
+				<tr>
+					<td>
+						<p>Данное письмо было отправлено на hafizova.i@gmail.com. Пожалуйста, добавьте
+							mailer@spim.ru в вашу адресную книгу, чтобы наши письма не попадали в спам.</p>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="futerr-button" width="200" cellpadding="0" cellspacing="0" align="center">
+				<tr>
+					<td>
+						<img src="images\отписаться.png" width="12" height="12">
+					</td>
+					<td class="futerr-button-unsubscribe"><a href="#" style="color: #A3A3A3">Отписаться</a></td>
+					<td>
+						<img src="images\Shape.png" width="14" height="14">
+					</td>
+					<td><a href="#" style="color: #A3A3A3">Веб-версия</a></td>
+		</td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+
+
+	</table>
+	</td>
+	</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</table>
+</body>
+
+</html>
